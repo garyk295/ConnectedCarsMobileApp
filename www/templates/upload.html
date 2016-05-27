@@ -1,0 +1,27 @@
+<ion-view view-title="products">
+  <ion-content>
+
+    <div class="list">
+      <label class="item item-input item-floating-label">
+        <span class="input-label">Name</span>
+        <input type="text" placeholder="Name" ng-model="product.name">
+      </label>
+      <label class="item item-input item-floating-label">
+        <span class="input-label">Description</span>
+        <input type="text" placeholder="Description" ng-model="product.description">
+      </label>
+      <label class="item item-input item-floating-label">
+        <span class="input-label">Price</span>
+        <input type="text" placeholder="Price" ng-model="product.price">
+      </label>
+      <label class="item item-input item-floating-label">
+        <span class="input-label">Image URL</span>
+        <input type="text" placeholder="Image URL" ng-model="product.img_url">
+      </label>
+      <button class="button button-block button-positive" ng-click="submit()">
+        Submit
+      </button>
+    </div>
+
+  </ion-content>
+</ion-view>
