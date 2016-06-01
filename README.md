@@ -1,4 +1,4 @@
-# ConnectedCasMobileApp
+# ConnectedCarsMobileApp
 
 Please install IONIC to use this app. 
 
